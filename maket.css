@@ -1,0 +1,227 @@
+#layer-bg {z-index:0;}
+/*#layer-container {z-index:1;}*/
+#layer-main{z-index:0;}
+#footer {z-index:0;}
+#layer-footer {z-index:0;}
+
+body{
+	background: url(bg.png) 0% 0%  no-repeat ;
+	background-size: cover;
+	width: 100%;
+	max-width: 110%;
+}
+
+.header__container{
+	position:absolute;
+	display:flex;
+	justify-content: center;
+	color:white;
+	width:100%;
+}
+
+.container__logo{
+	display:flex;
+	padding-right:20.8%;
+	font-size:25px;
+	font-family: 'Recursive', sans-serif;
+	padding-top:3.78%;
+}
+
+.container__menu{
+	display: flex;
+	font-family: 'Recursive', sans-serif;
+	font-size: 14px;
+}
+
+.container__menu img{
+	width: 45px;
+	height:45px;
+	border-radius: 35px;
+}
+
+.__menu-list{
+ 	list-style-type: none;
+	padding-top: 3.7%;
+	align-items: center;
+	display: flex;
+}
+
+.last-li:last-child{
+	padding-left:0.34%;
+}
+
+.__menu-list a{
+	text-decoration: none;
+	color:white;
+}
+
+.__menu-list li {
+	padding-left: 4.51%;
+
+	
+}
+
+.border{
+	border:3px solid white;
+	padding: 15px 20px;
+	border-radius:25px;
+}
+
+.main__container{
+	position:absolute;
+	display:flex;
+	top:9.71%;
+	width: 100%;
+}
+
+
+.__container_block-1{
+	margin-left:27.7%;
+}
+
+
+.__block-1 h1{
+	font-family: "ChunkFive Regular";
+	color:white;
+	font-size: 80px;
+	white-space: nowrap;
+}
+
+.__color{
+	color:#029780;
+}
+
+@font-face {
+font-family: "ChunkFive Regular";
+src: url("ChunkFive-Regular.otf") format("opentype");
+}
+
+.__block-1 p{
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	color:white;
+	white-space: break-spaces;
+}
+
+.__block-1 li{
+	list-style: none;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	margin:0 190px;
+	padding:30px 36px;
+	border:1px solid #E7E68D;
+	background-color:#E7E68D;
+	border-radius: 35px;
+	font-weight:900;
+	text-align: center;
+}
+
+.__block-1 a{
+	text-decoration: none;
+	color:black;
+}
+
+.__container_block-2{
+	padding:51.11% 0 3.68% 0;
+	display: flex;
+	position: absolute;
+	width:100%;
+}
+
+.__block-2{
+	display:block;
+	padding-left: 12.9%;
+	
+}
+
+.__block-3{
+	float:left;
+	white-space: nowrap;
+}
+
+.__block-3 h1{
+	padding:0px 25% 0 6.875%;
+	font-size: 60px;
+	font-family: "ChunkFive Regular";
+	color:#029780;
+	position: relative;
+}
+
+.color_block-3{
+	color:#00929E;
+}
+
+.__block-3 p{
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	color:#A4B1B2;
+	padding:0.69% 25.06% 0px 6.875%;
+	white-space: break-spaces;
+	position:inherit;
+}
+
+.footer__container{
+	position: absolute;
+	display:flex;
+	top:82.61%;
+	background-color: #9BED82;
+	width:100%;
+}
+
+.__block-ft{
+	padding:0px 9.375% 6.53% 9.375%;
+	width: 100%;
+}
+
+
+
+.__block-1-ft h1{
+	font-size: 67px;
+	font-family: "ChunkFive Regular";
+	color:white;
+	white-space:nowrap;
+	padding-right: 48.47%;
+}
+
+.__block-1-ft p{
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	color:white;
+}
+
+.__block-input{
+	display: flex;
+    position: relative;
+    top: 4.72%;
+    padding-right: 9.3%;
+    align-items: normal;
+    width:100%;
+}
+
+.__block-2-ft{
+	float:right;
+	position:inherit;
+	display:flex;
+	padding-top: 15%;
+
+}
+
+.__email{
+	height: 70px;
+	width: 420px;
+	border:3px solid green;
+}
+
+.__submit{
+	font-size: 70px;
+	font-family: "ChunkFive Regular";
+	border:1px solid #198D9A;
+	background-color:#198D9A;
+	font-weight:300;
+	width:70px;
+	height: 76px;
+	text-align: center;
+	color:white;
+}
+
+
