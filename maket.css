@@ -12,19 +12,19 @@ body{
 }
 
 .header__container{
-	position:absolute;
+
 	display:flex;
 	justify-content: center;
 	color:white;
 	width:100%;
+
 }
 
 .container__logo{
 	display:flex;
-	padding-right:20.8%;
+
 	font-size:25px;
 	font-family: 'Recursive', sans-serif;
-	padding-top:3.78%;
 }
 
 .container__menu{
@@ -41,13 +41,12 @@ body{
 
 .__menu-list{
  	list-style-type: none;
-	padding-top: 3.7%;
 	align-items: center;
 	display: flex;
 }
 
 .last-li:last-child{
-	padding-left:0.34%;
+
 }
 
 .__menu-list a{
@@ -68,15 +67,16 @@ body{
 }
 
 .main__container{
-	position:absolute;
+
 	display:flex;
 	top:9.71%;
 	width: 100%;
+	margin: 0 auto;
 }
 
 
 .__container_block-1{
-	margin-left:27.7%;
+	margin:0 auto;
 }
 
 
@@ -107,8 +107,7 @@ src: url("ChunkFive-Regular.otf") format("opentype");
 	list-style: none;
 	font-size: 16px;
 	font-family: 'Lato', sans-serif;
-	margin:0 190px;
-	padding:30px 36px;
+
 	border:1px solid #E7E68D;
 	background-color:#E7E68D;
 	border-radius: 35px;
@@ -122,15 +121,15 @@ src: url("ChunkFive-Regular.otf") format("opentype");
 }
 
 .__container_block-2{
-	padding:51.11% 0 3.68% 0;
+
 	display: flex;
-	position: absolute;
+
 	width:100%;
 }
 
 .__block-2{
 	display:block;
-	padding-left: 12.9%;
+
 	
 }
 
@@ -140,7 +139,7 @@ src: url("ChunkFive-Regular.otf") format("opentype");
 }
 
 .__block-3 h1{
-	padding:0px 25% 0 6.875%;
+
 	font-size: 60px;
 	font-family: "ChunkFive Regular";
 	color:#029780;
@@ -155,13 +154,13 @@ src: url("ChunkFive-Regular.otf") format("opentype");
 	font-size: 16px;
 	font-family: 'Lato', sans-serif;
 	color:#A4B1B2;
-	padding:0.69% 25.06% 0px 6.875%;
+
 	white-space: break-spaces;
 	position:inherit;
 }
 
 .footer__container{
-	position: absolute;
+
 	display:flex;
 	top:82.61%;
 	background-color: #9BED82;
@@ -169,7 +168,7 @@ src: url("ChunkFive-Regular.otf") format("opentype");
 }
 
 .__block-ft{
-	padding:0px 9.375% 6.53% 9.375%;
+
 	width: 100%;
 }
 
@@ -180,7 +179,7 @@ src: url("ChunkFive-Regular.otf") format("opentype");
 	font-family: "ChunkFive Regular";
 	color:white;
 	white-space:nowrap;
-	padding-right: 48.47%;
+
 }
 
 .__block-1-ft p{
@@ -193,7 +192,7 @@ src: url("ChunkFive-Regular.otf") format("opentype");
 	display: flex;
     position: relative;
     top: 4.72%;
-    padding-right: 9.3%;
+
     align-items: normal;
     width:100%;
 }
@@ -202,7 +201,7 @@ src: url("ChunkFive-Regular.otf") format("opentype");
 	float:right;
 	position:inherit;
 	display:flex;
-	padding-top: 15%;
+
 
 }
 
