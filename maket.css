@@ -1,28 +1,20 @@
-#layer-bg {z-index:0;}
-/*#layer-container {z-index:1;}*/
-#layer-main{z-index:0;}
-#footer {z-index:0;}
-#layer-footer {z-index:0;}
-
+#header {z-index:-1;}
 body{
-	background: url(bg.png) 0% 0%  no-repeat ;
-	background-size: cover;
-	width: 100%;
-	max-width: 110%;
+	margin:0 auto;
+	font-size:16px;
 }
 
 .header__container{
 
 	display:flex;
 	justify-content: center;
-	color:white;
+
 	width:100%;
 
 }
 
 .container__logo{
 	display:flex;
-
 	font-size:25px;
 	font-family: 'Recursive', sans-serif;
 }
@@ -45,46 +37,49 @@ body{
 	display: flex;
 }
 
-.last-li:last-child{
-
-}
-
 .__menu-list a{
 	text-decoration: none;
-	color:white;
+	
 }
 
 .__menu-list li {
 	padding-left: 4.51%;
-
-	
 }
 
 .border{
-	border:3px solid white;
+	border:3px solid black;
 	padding: 15px 20px;
 	border-radius:25px;
 }
 
-.main__container{
-
+.preview{
 	display:flex;
-	top:9.71%;
-	width: 100%;
-	margin: 0 auto;
+	align-items: center;
+	justify-content: center;
+	background: url(bg.png) no-repeat center / cover;
+	height:100vh;
 }
 
+.preview__card{
 
-.__container_block-1{
-	margin:0 auto;
+	color:white;
+	text-align:center;
 }
 
-
-.__block-1 h1{
+.preview__card h1{
 	font-family: "ChunkFive Regular";
 	color:white;
-	font-size: 80px;
+	font-size: 3em;
 	white-space: nowrap;
+	text-transform: uppercase;
+}
+
+.preview__card button{
+	padding:20px 25px;
+	background-color:#ffffa6;
+	text-transform: uppercase;
+	border-radius:30px;
+	border:none;
 }
 
 .__color{
@@ -96,111 +91,74 @@ font-family: "ChunkFive Regular";
 src: url("ChunkFive-Regular.otf") format("opentype");
 }
 
-.__block-1 p{
-	font-size: 18px;
-	font-family: 'Lato', sans-serif;
-	color:white;
-	white-space: break-spaces;
+.wrap{
+	max-width:1400px;
+	margin:0 auto;
 }
 
-.__block-1 li{
-	list-style: none;
-	font-size: 16px;
-	font-family: 'Lato', sans-serif;
-
-	border:1px solid #E7E68D;
-	background-color:#E7E68D;
-	border-radius: 35px;
-	font-weight:900;
-	text-align: center;
+.about{
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	padding:30px 0;
 }
 
-.__block-1 a{
-	text-decoration: none;
-	color:black;
+.about__text{
+	width:50%;
 }
 
-.__container_block-2{
-
-	display: flex;
-
-	width:100%;
-}
-
-.__block-2{
-	display:block;
-
-	
-}
-
-.__block-3{
-	float:left;
-	white-space: nowrap;
-}
-
-.__block-3 h1{
+.about__text h2{
 
 	font-size: 60px;
 	font-family: "ChunkFive Regular";
 	color:#029780;
-	position: relative;
+	margin:0 0 30px 0;
+	font-size: 2.2rem;
 }
 
 .color_block-3{
 	color:#00929E;
 }
 
-.__block-3 p{
-	font-size: 16px;
-	font-family: 'Lato', sans-serif;
-	color:#A4B1B2;
-
-	white-space: break-spaces;
-	position:inherit;
+.about__text p{
+	color:gray;
 }
 
-.footer__container{
+.footer{
+	padding:30px 0;
+	background-color:#bdf271;
+}
 
+.footer__wrap{
 	display:flex;
-	top:82.61%;
-	background-color: #9BED82;
-	width:100%;
+	align-items: center;
+	justify-content: center;
+	max-width:1400px;
+	margin:0 auto;
 }
 
-.__block-ft{
-
-	width: 100%;
+.footer__text{
+	width: 50%;
+	color:white;
 }
 
 
 
-.__block-1-ft h1{
-	font-size: 67px;
+.footer__text h2{
+	font-size: 2.2rem;
 	font-family: "ChunkFive Regular";
 	color:white;
-	white-space:nowrap;
+	margin:0;
+
 
 }
 
-.__block-1-ft p{
-	font-size: 16px;
-	font-family: 'Lato', sans-serif;
-	color:white;
+.footer__form{
+	width:50%;
 }
 
-.__block-input{
-	display: flex;
-    position: relative;
-    top: 4.72%;
-
-    align-items: normal;
-    width:100%;
-}
-
-.__block-2-ft{
-	float:right;
-	position:inherit;
-	display:flex;
+.footer__input{
+	
 
 
 }
